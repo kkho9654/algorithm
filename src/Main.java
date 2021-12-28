@@ -36,7 +36,7 @@ public class Main {
         System.out.print(str.length());
     }
     public static void mathPractice1(){
-        long a=0,b=0,c=0;
+        long a,b,c;
         String str=scan.nextLine();
         a=Long.parseLong(str.split(" ")[0]);
         b=Long.parseLong(str.split(" ")[1]);
